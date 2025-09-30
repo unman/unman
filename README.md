@@ -16,9 +16,8 @@ sub   rsa4096 2016-06-25 [E]
 sub   rsa4096 2016-06-27 [S] [expires: 2024-06-30]
 
 ```
-
 Both are available on keyservers - for example:  
-https://keys.gnupg.net/pks/lookup?search=unman+Qubes+OS+signing&fingerprint=on&op=index
+`https://keyserver.ubuntu.com/pks/lookup?search=unman&fingerprint=on&op=index`
 
-The public key I use for Qubes OS signing is unman.pub  
+The public key I use for Qubes OS signing is unman.asc  
 gpg-keys.asc contains a PGP Signed copy of this information.
