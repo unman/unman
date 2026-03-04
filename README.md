@@ -13,11 +13,12 @@ pub   rsa4096 2016-06-25 [SC]
       4B1F400DF25651B53C4141B38B3F30F9C8C0C2EF
 uid           [ unknown] unman (Qubes OS signing key) <unman@thirdeyesecurity.org>
 sub   rsa4096 2016-06-25 [E]
-sub   rsa4096 2016-06-27 [S] [expires: 2024-06-30]
+sub   rsa4096 2016-06-27 [S] [expires: 2026-06-30]
 
 ```
 Both are available on keyservers - for example:  
 `https://keyserver.ubuntu.com/pks/lookup?search=unman&fingerprint=on&op=index`
 
-The public key I use for Qubes OS signing is unman.asc  
-gpg-keys.asc contains a PGP Signed copy of this information.
+The public key I use for Qubes OS signing is unman.asc
+
+README.md.sig is a detached signature of this file. 
